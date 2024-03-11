@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnify</title>
+    <meta name="description" content="" />
+
+    <!-- favion -->
+    <link rel="shortcut icon" type="image/svg+xml" href="./img/favicon.svg" />
+
+    <!-- external csss -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- pre-load images -->
+    <link rel="pre-load" as="image" href="/img/young-girl.png" />
+  </head>
+  <body id="top">
+    <!-- header -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./img/realLogo.png" width="162" height="50" alt="logo" />
+        </a>
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#home" class="logo">
+              <img src="./img/realLogo.png" width="162" height="50" alt="logo" />
+            </a>
+            <button
+              class="nav-cls-btn"
+              aria-label="close-menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#courses" class="navbar-link" data-nav-link>Course</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+
+          <a href="#" class="btn has-before">
+            <span class="span">Sign up</span>
+          </a>
+
+          <button
+            class="header-action-btn"
+            aria-label="open menu"
+            data-nav-toggler
+          >
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- hero section -->
+        <section class="section hero" id="home" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 section-title">
+                Top IT <span class="span">course</span> for Digital Mastery
+                Enthusiasts
+              </h1>
+              <p class="hero-text">
+                Welcome to Learnify, your gateway to a world of knowledge and
+                growth.
+              </p>
+              <a href="#" class="btn has-before">
+                <span class="span">Find Courses</span>
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <div class="img-holder one">
+                <img
+                  src="./img/young-girl.png"
+                  alt="hero-photo"
+                  class="img-cover"
+                />
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        <!-- category section -->
+        <section class="section category" aria-label="category">
+          <div class="container">
+            <p class="section-subtitle">Categories</p>
+            <h2 class="h2 section-title">
+              Popular Courses Category
+            </h2>
+
+            <p class="section-text">
+              Innovate, adapt, and thrive in changing times
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="category-card" style="--color: 26, 183, 157">
+                  <div class="card-icon">
+                    <img
+                      src="./img/webDevelop.jpeg"
+                      loading="lazy"
+                      class="img card-img"
+                      alt="Online Degree Programs"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="" class="card-title">Web Development</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Craft responsive and intuitive user interfaces.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 26, 183, 157">
+                  <div class="card-icon">
+                    <img
+                      src="./img/androidDev.jpg"
+                      loading="lazy"
+                      class="img card-img"
+                      alt="Online Degree Programs"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="" class="card-title">Android Development</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Build cutting-edge apps for global audiences.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 26, 183, 157">
+                  <div class="card-icon">
+                    <img
+                      src="./img/machineLear.jpeg"
+                      loading="lazy"
+                      class="img card-img"
+                      alt="Online Degree Programs"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="" class="card-title">Machine Learning</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Harness the potential of artificial intelligence.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 26, 183, 157">
+                  <div class="card-icon">
+                    <img
+                      src="./img/security.jpeg"
+                      loading="lazy"
+                      class="img card-img"
+                      alt="Online Degree Programs"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="" class="card-title">Cyber Security</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Detect and mitigate cyber threats effectively.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- About section -->
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <figure class="about-banner">
+              <div style="--width: ; --height: " class="img-holder">
+                <img id="change-img"
+                  src="./img/about2.jpg"
+                  width="520"
+                  height="370"
+                  loading="lazy"
+                  alt="about-banner"
+                  class="img-cover"
+                />
+              </div>
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">About Us</p>
+              <h2 class="h2 section-title">
+                Crafting Success, Inspiring Futures
+              </h2>
+              <div class="about-link" id="about-page">
+                <ul class="about-list">
+                  <li>
+                    <a href="#about" class="link link-1 active" link>About Us</a>
+                  </li>
+                  <li id="box">
+                    <a href="#about" class="link link-2" link>Expert Trainers</a>
+                  </li>
+                  <li>
+                    <a href="#about" class="link link-3" link>Lifetime Access</a>
+                  </li>
+                </ul>
+              </div>
+              <p class="section-text text-1">
+                Empowering learners globally with tailored education, fostering
+                growth, and cultivating success through innovative online
+                learning experiences.
+              </p>
+              <p class="section-text text-2">Maximize potential with minimal effort</p>
+              <p class="section-text text-3">Tiny actions yield mighty results</p>
+              <br />
+              <a href="#" class="btn has-before">
+                <span class="span">View more</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        
+        <!-- courses section -->
+        <section class="section course" id="courses" aria-label="course">
+          <div class="container">
+            <p class="section-subtitle">Courses</p>
+            <h2 class="h2 section-title">Choose and code your future</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./img/pythonCousrse.jpg"
+                      alt="courses"
+                      loading="lazy"
+                      width="370"
+                      height="220"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >100 Days of Code: The Complete Python Pro Bootcamp</a
+                      >
+                    </h3>
+
+                    <p class="author">Dr. Angela Yu</p>
+
+                    <div class="wrapper">
+                      <p class="rating-text">4.9 </p>
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="student-count">(261,994)</p>
+                    </div>
+      
+                    <data class="price" value="29">$29.00</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./img/cyber.jpg"
+                      alt="Java Programming Masterclass for Software Developers"
+                      loading="lazy"
+                      width="370"
+                      height="220"
+                      class="img-cover"
+                    />
+                  </figure>
+
+
+                  <div class="card-content">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >The Complete Cyber Security Course: Hackers Exposed!</a
+                      >
+                    </h3>
+                    <p class="author">Nathan House</p>
+                    <div class="wrapper">
+                      <p class="rating-text">4.1 </p>
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="student-count">(181,994)</p>
+                    </div>
+        
+                    <data class="price" value="49">$49.00</data>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./img/DSA.jpg"
+                      alt="The Complete Camtasia Course for Content Creators"
+                      loading="lazy"
+                      width="370"
+                      height="220"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Java Data Structures and Algorithms Masterclass</a
+                      >
+                    </h3>
+                    <p class="author">Scott Barrett</p>
+                    <div class="wrapper">
+                      <p class="rating-text">4.4 </p>
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="student-count">(221,874)</p>
+                    </div>
+
+                    <data class="price" value="35">$35.00</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./img/web.jpg"
+                      alt="courses"
+                      loading="lazy"
+                      width="370"
+                      height="220"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >The Complete 2024 Web Development Bootcamp</a
+                      >
+                    </h3>
+                    <p class="author">Dr. Angela Yu</p>
+                    <div class="wrapper">
+                      <p class="rating-text">4.7 </p>
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="student-count">(281,994)</p>
+                    </div>
+
+                    <data class="price" value="29">$19.00</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./img/Android.jpg"
+                      alt="Java Programming Masterclass for Software Developers"
+                      loading="lazy"
+                      width="370"
+                      height="220"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >The Complete Android Developer Course - Java &
+                        Kotlin</a
+                      >
+                    </h3>
+
+                    <p class="author">Abbass Masri</p>
+                    <div class="wrapper">
+                      <p class="rating-text">4.2</p>
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="student-count">(201,694)</p>
+                    </div>
+                    
+                    <data class="price" value="49">$79.00</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 370; --height: 220"
+                  >
+                    <img
+                      src="./img/Ai.jpg"
+                      alt="The Complete Camtasia Course for Content Creators"
+                      loading="lazy"
+                      width="370"
+                      height="220"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Complete A.I & Machine Learning, Data Science
+                        Bootcamp</a
+                      >
+                    </h3>
+                    <p class="author">Kirill Eremenko</p>
+                    <div class="wrapper">
+                      <p class="rating-text">4.9</p>
+                      <div class="rating-wrapper">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <p class="student-count">(381,994)</p>
+                      
+                    </div>
+                
+                    <data class="price" value="35">$105.00</data>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn has-before">
+              <span class="span">View more</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- accordion section-->
+        <section class="faq section">
+          <div class="container">
+            <div class="content">
+              <p class="section-subtitle">FAQ's</p>
+              <h2 class="h2 section-title">Frequently Asked Question</h2>
+
+              <ul class="faq-text">
+                <li>
+                  <div class="question-arrow">
+                    <h3 class="question">Web Devleopment</h3>
+                    <i class="fa-solid fa-angle-down arrow"></i>
+                  </div>
+                  <div class="accordion-content">
+                    <p>
+                      Web development refers to the process of creating, building, and maintaining websites or web applications for the internet or an intranet. It encompasses various aspects such as web design, web content development, client-side scripting, server-side scripting, network security configuration, and more.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="question-arrow">
+                    <h3 class="question">Cyber Security</h3>
+                    <i class="fa-solid fa-angle-down arrow"></i>
+                  </div>
+                  <p class="accordion-content">
+                    Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These attacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes. Implementing effective cybersecurity measures is essential to prevent cyberattacks and safeguard against unauthorized exploitation of systems and data.
+                  </p>
+                </li>
+                <li>
+                  <div class="question-arrow">
+                    <h3 class="question">Artificial Intelligence</h3>
+                    <i class="fa-solid fa-angle-down arrow"></i>
+                  </div>
+                  <p class="accordion-content">
+                    Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning (the acquisition of information and rules for using it), reasoning (using rules to reach approximate or definite conclusions), and self-correction.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <figure class="about-banner">
+              <div class="img-holder">
+                <img
+                  src="./img/mainImg.png"
+                  width="530"
+                  height="370"
+                  loading="lazy"
+                  alt="about-banner"
+                  class="img-cover"
+                />
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        <!-- Testimonals section-->
+        <section class="testimonal section">
+          <div class="container">
+            <h2 class="h2 section-title">Our Testemonals</h2>
+            <div class="testimon">
+              <div class="testimon-container">
+                <div class="testimon-item testimon-1" data-index="1">
+                  <div class="test-content">
+                    <p class="section-text test-text">
+                      Embarking on the Cybersecurity course with Learnify has been a decision I'm truly excited about. From the moment I enrolled, I knew I was taking a significant step toward securing a promising future in the ever-evolving field of cybersecurity.
+                    </p>
+                    <h3 class="h3">Gaurav Mahato</h3>
+                    <h5 class="h5">System Engineer</h5>
+                  </div>
+                </div>
+                <div class="testimon-item testimon-2" data-index="2">
+                  <div class="test-content">
+                    <p class="section-text test-text">
+                      A heartfelt appreciation to Learnify for providing an exceptional journey in web development. Choosing the Web Development course has been a pivotal decision in my career.
+                    </p>
+                    <h3 class="h3">Aryan Gurung</h3>
+                    <h5 class="h5">Software Engineer</h5>
+                  </div>
+                </div>
+
+                <div class="testimon-item testimon-3" data-index="3">
+                  <div class="test-content">
+                    <p class="section-text test-text">
+                      Taking the Android Development course from Learnify has been an absolute game-changer for me. From the moment I enrolled, I knew I was in for an incredible learning experience.
+                    </p>
+                    <h3 class="h3">Dilip Shrestha</h3>
+                    <h5 class="h5">Android Developer</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="thumnail-container">
+                <div class="thumnail-items thumnail-1">
+                  <img src="./img/gaurav.jpg" alt="" class="thum-img" />
+                </div>
+                <div class="thumnail-items thumnail-2">
+                  <img src="./img/aryan.jpg" alt="" class="thum-img" />
+                </div>
+                <div class="thumnail-items thumnail-3">
+                  <img src="./img/aryan1.jpg" alt="" class="thum-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video">
+          <div class="container">
+            <div class="wrapper img-holder">
+              <iframe
+                src="https://www.youtube.com/embed/kaHDlzuyK_Y?si=yBQKaWcqj8yV9Hba"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="wrapper img-holder">
+              <iframe
+                src="https://www.youtube.com/embed/ApNqP3idqak?si=85Elc84y40fBQnTG"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <!-- Status -->
+        <section class="section status">
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <img
+                  src="./img/studentEnrol.png"
+                  alt=""
+                  loading="lazy"
+                  class="img-cover"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/class.png"
+                  alt=""
+                  class="img-cover"
+                  loading="lazy"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/satisfaction.png"
+                  alt=""
+                  class="img-cover"
+                  loading="lazy"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/topIns.png"
+                  alt=""
+                  class="img-cover"
+                  loading="lazy"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog has-bg-image section" id="blog">
+          <div class="container">
+            <p class="section-subtitle">Blogs</p>
+            <h2 class="h2 section-title">Popular Latest Blogs</h2>
+            <ul class="grid-list">
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-after"
+                    style="--width: 370; --height: 370"
+                  >
+                    <img
+                      src="./img/artificial.jpg"
+                      alt=""
+                      height="370"
+                      width="370"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-subtitle">Blog</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >The Future of Artificial Intelligence in Healthcare</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Oct 10, 2021</span>
+                      </li>
+                    </ul>
+
+                    <p class="card-text">
+                      Advancements of Artificial Intelligence in Healthcare.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-after"
+                    style="--width: 370; --height: 370"
+                  >
+                    <img
+                      src="./img/blockchain.jpg"
+                      alt=""
+                      height="370"
+                      width="370"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-subtitle">Article</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >Blockchain Beyond Cryptocurrency</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Oct 10, 2021</span>
+                      </li>
+                    </ul>
+
+                    <p class="card-text">
+                      Exploring its Applications Across Industries.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder has-after"
+                    style="--width: 370; --height: 370"
+                  >
+                    <img
+                      src="./img/computing.jpg"
+                      alt=""
+                      height="370"
+                      width="370"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <a href="#" class="card-subtitle">Blog</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >The Rise of Edge Cloud Computing</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <ion-icon
+                          name="calendar-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+
+                        <span class="span">Oct 10, 2021</span>
+                      </li>
+                    </ul>
+
+                    <p class="card-text">
+                      Unlocking the Potential of Decentralized Data Processing.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="contact" class="footer">
+      <div class="footer-top section">
+        <div class="container grid-list">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="./img/realLogo-light.png"
+                loading="lazy"
+                width="162"
+                height="50"
+                alt=""
+              />
+            </a>
+
+            <p class="footer-brand-text">
+              Empowering learning journeys with best courses, accessible
+              resources, and personalized support for learners.
+            </p>
+
+            <div class="wrapper">
+              <span class="span">Add:</span>
+              <address class="address">Jhamsikhel, Lalitpur</address>
+            </div>
+
+            <div class="wrapper">
+              <span class="span">Call:</span>
+              <a href="tel:01-4314612" class="footer-link">01-4314612</a>
+            </div>
+
+            <div class="wrapper">
+              <span class="span">Email:</span>
+              <a href="mailto:info@learnify.com" class="footer-link"
+                >info@learnify.com</a
+              >
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Quic Links</p>
+            </li>
+
+            <li>
+              <a href="#about" class="footer-link">About</a>
+            </li>
+
+            <li>
+              <a href="#courses" class="footer-link">Courses</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Instructors</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Events</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Access</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Video</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Links</p>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer-link">Contact Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Video</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sign up</a>
+            </li>
+
+            <li>
+              <a href="#faq" class="footer-link">FAQ's</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Video</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="footer-list-title">Contacts</p>
+
+            <p class="footer-list-text">
+              Sign up for our newsletter to receive exclusive updates and offers directly to your inbox.
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your Email"
+                id="email"
+                class="input-field"
+                required
+              />
+
+              <button type="submit" class="btn has-before">
+                <span class="span">Subscribe</span>
+              </button>
+            </form>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 Aryan Gurung. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- back top button -->
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back top top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script src="./js/script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
